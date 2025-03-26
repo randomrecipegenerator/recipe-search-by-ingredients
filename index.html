@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Search by Ingredients | Find Meals from What You Have | RecipeGenerator.online</title>
+    <meta name="description" content="Discover recipes using ingredients you already have! Our AI-powered ingredient search helps you create delicious meals without grocery shopping. Find vegan, gluten-free, and diet-specific recipes instantly.">
+    
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Ingredient Recipe Search",
+        "url": "https://recipegenerator.online/",
+        "description": "AI-powered recipe finder that suggests meals based on ingredients you have",
+        "applicationCategory": "CookingApplication",
+        "operatingSystem": "Web",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "ratingCount": "1850"
+        },
+        "offers": {
+            "@type": "Offer",
+            "price": "0.00",
+            "priceCurrency": "USD"
+        }
+    }
+    </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background: #fff9f2;
+            color: #2d3436;
+        }
+
+        .hero {
+            min-height: 100vh;
+            padding: 4rem 2rem;
+            text-align: center;
+            background: linear-gradient(135deg, #ff9a9e40 0%, #fad0c455 100%);
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            color: #e67e22;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+        }
+
+        .search-example {
+            color: #666;
+            margin: 1rem 0;
+            font-style: italic;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 1.2rem 3.5rem;
+            background: #e67e22;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+            margin: 2rem 0;
+            box-shadow: 0 5px 25px rgba(230,126,34,0.3);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            background: #d35400;
+        }
+
+        .features {
+            padding: 4rem 2rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .feature-card {
+            padding: 2rem;
+            background: white;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.05);
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            .features {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <h1>Find Recipes Using Ingredients You Already Have</h1>
+        <p class="search-example">Example: "chicken, broccoli, rice" → 25+ recipe ideas</p>
+        <a href="https://recipegenerator.online/" class="cta-button">Search Recipes by Ingredients</a>
+        
+        <div class="features">
+            <div class="feature-card">
+                <h3>🥕 Ingredient AI Search</h3>
+                <p>Smart matching with what's in your pantry</p>
+            </div>
+            <div class="feature-card">
+                <h3>🥗 Dietary Filters</h3>
+                <p>Vegan, Keto, Gluten-free & more</p>
+            </div>
+            <div class="feature-card">
+                <h3>⏱️ Instant Results</h3>
+                <p>Get recipes in seconds</p>
+            </div>
+        </div>
+    </section>
+
+    <section style="padding: 4rem 2rem; text-align: center; background: #fff;">
+        <h2 style="margin-bottom: 2rem;">How It Works</h2>
+        <div style="max-width: 800px; margin: 0 auto;">
+            <p>1. Enter ingredients (separated by commas)</p>
+            <p>2. Apply dietary preferences</p>
+            <p>3. Get personalized recipe suggestions</p>
+            <a href="https://recipegenerator.online/" class="cta-button" style="margin-top: 2rem;">
+                Start Ingredient Search Now
+            </a>
+        </div>
+    </section>
+</body>
+</html>
